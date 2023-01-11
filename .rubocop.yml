@@ -1,0 +1,29 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.2
+  TargetRailsVersion: 7.0
+  Exclude:
+    - bin/**/*
+    - db/schema.rb
+    - db/seeds.rb
+    - vendor/**/*
+    - config/environments/**/*
