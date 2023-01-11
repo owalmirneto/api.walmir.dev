@@ -46,3 +46,5 @@ group :development do
   # gem "spring"
 end
 
+# https://github.com/bkeepers/dotenv#rails
+gem "dotenv-rails", "~> 2.8"
