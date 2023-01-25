@@ -30,7 +30,7 @@ WORKDIR /myapp
 COPY Gemfile Gemfile.lock ./
 
 RUN gem update --system && gem install bundler --no-document
-RUN bundle check || bundle install
+RUN bundle install
 
 COPY . .
 
