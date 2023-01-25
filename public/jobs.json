@@ -1,0 +1,88 @@
+{
+  "jobs": [
+    {
+      "code": "ilove.me",
+      "title": "Fullstack Software Developer",
+      "hireDate": "July 2022",
+      "rescissionDate": "Current",
+      "description": "I'm a Fullstack Software Developer at ilove.me",
+      "company": {
+        "name": "ilove.me · Sistema fácil para Salões de Beleza, Clínicas e Spas",
+        "site": "https://ilove.me",
+        "avatar": "/images/companies/ilove.me.png"
+      }
+    },
+    {
+      "code": "repassa",
+      "title": "Fullstack Software Developer",
+      "hireDate": "October 2021",
+      "rescissionDate": "July 2022",
+      "description": "I'm a Fullstack Software Developer at Repassa",
+      "company": {
+        "name": "Repassa · Brechó Online das Melhores Marcas",
+        "site": "https://repassa.com.br",
+        "avatar": "/images/companies/repassa.png"
+      }
+    },
+    {
+      "code": "interage",
+      "title": "TechLead and Fullstack Software Developer",
+      "hireDate": "October 2017",
+      "rescissionDate": "September 2021",
+      "description": "I'm a TechLead and Fullstack Software Developer at Interage, our main stack consists of ruby on rails, postgres as main database but we also use Sidekiq and Redis a lot for background jobs and other secondary tasks.",
+      "company": {
+        "name": "Interage · agile software house",
+        "site": "http://www.interage.in",
+        "avatar": "/images/companies/interage.png"
+      }
+    },
+    {
+      "code": "comunika",
+      "title": "Fullstack Software Developer",
+      "hireDate": "June 2016",
+      "rescissionDate": "December 2017",
+      "description": "I am responsible for the API that serves the Web APP, Android and IOS apps, the platform used by schools to communicate with those responsible for students and the webapp used by those responsible, as well as the Android and IOS apps.",
+      "company": {
+        "name": "Comunika · Comunicação Escolar",
+        "site": "https://comunikapp.com",
+        "avatar": "/images/companies/comunika.png"
+      }
+    },
+    {
+      "code": "idealizza",
+      "title": "Fullstack Software Developer",
+      "hireDate": "July 2017",
+      "rescissionDate": "December 2017",
+      "description": "At Idealizza, I developed web applications using HTML5, CSS3, jQuery, CakePHP, MySQL, DigitalOcean.",
+      "company": {
+        "name": "Idealizza",
+        "site": "http://idealizza.com.br",
+        "avatar": "/images/companies/idealizza.png"
+      }
+    },
+    {
+      "code": "tisstech",
+      "title": "Software Developer",
+      "hireDate": "July 2014",
+      "rescissionDate": "November 2015",
+      "description": "Web applications using Laravel, Git, MySQL e Jquery.",
+      "company": {
+        "name": "Tisstech",
+        "site": null,
+        "avatar": "/images/companies/tisstech.png"
+      }
+    },
+    {
+      "code": "pianolab",
+      "title": "Software Developer",
+      "hireDate": "August 2011",
+      "rescissionDate": "September 2014",
+      "description": "Web applications using a framework in PHP following the MVC pattern for the company to use in your projects.",
+      "company": {
+        "name": "PIANOLAB Agência Digital",
+        "site": "http://pianolab.com.br",
+        "avatar": "/images/companies/pianolab.png"
+      }
+    }
+  ]
+}

@@ -29,5 +29,5 @@
 /config/master.key
 
 # Used by dotenv library to load environment variables.
-.env*
+*.env
 !.env.example

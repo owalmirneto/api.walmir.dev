@@ -31,4 +31,5 @@ test:
   database: walmir_api_test
 
 production:
-  url: <%= ENV["DATABASE_URL"] %>
+  <<: *default
+  database: <%= ENV.fetch("POSTGRES_DB", "walmir_api") %>

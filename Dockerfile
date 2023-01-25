@@ -28,10 +28,9 @@ RUN rm -rf /var/cache/apk/*
 WORKDIR /myapp
 
 COPY Gemfile Gemfile.lock ./
-COPY .ruby-gemset .ruby-version ./
 
 RUN gem update --system && gem install bundler --no-document
-RUN bundle check || bundle install
+RUN bundle install
 
 COPY . .
 
